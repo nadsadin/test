@@ -1,0 +1,84 @@
+@import url(bootstrap.min.css);
+@import url(icomoon.css);
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500; }
+body {
+  font-family: Roboto;
+  font-size: 22px;
+  background-color: #f6f6f7; }
+  body .text-dark-gray {
+    color: #37414e; }
+  body .btn-red {
+    background-color: #be393b;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 60px; }
+  body .form-group input, body .form-group textarea {
+    background-color: rgba(52, 56, 60, 0.28);
+    border-color: rgba(255, 255, 255, 0.28);
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 60px; }
+    body .form-group input:focus, body .form-group textarea:focus {
+      background-color: rgba(52, 56, 60, 0.38);
+      border-color: rgba(255, 255, 255, 0.38);
+      box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.25);
+      color: #fff; }
+    body .form-group input.error, body .form-group textarea.error {
+      border-color: rgba(190, 57, 59, 0.49);
+      background-color: #2f3136; }
+  body .form-group textarea {
+    resize: none; }
+  body .form-group input {
+    height: 56px; }
+  body .comments .card-message {
+    text-align: center;
+    margin: 20px 20px;
+    background-color: #deebde;
+    padding-bottom: 30px;
+    border: none; }
+    body .comments .card-message .card-title {
+      font-weight: 500;
+      color: #58ad52;
+      padding: 10px 5px; }
+    body .comments .card-message .card-header {
+      color: #fff;
+      background-color: #58ad52;
+      border: none; }
+    body .comments .card-message .card-body {
+      border: none; }
+  body .comments div[class^='col']:nth-child(2n) .card-message {
+    background-color: #e9eef3;
+    color: #37414e; }
+    body .comments div[class^='col']:nth-child(2n) .card-message .card-header {
+      background-color: #4b596c; }
+    body .comments div[class^='col']:nth-child(2n) .card-message .card-title {
+      color: #37414e; }
+  body .footer {
+    background-color: #2a2d33;
+    padding-top: 15px;
+    padding-bottom: 20px; }
+    body .footer a[class^='icon'] {
+      background-color: #2f3338;
+      color: #656566;
+      border-radius: 100%;
+      border: #454648 2px solid;
+      width: 34px;
+      height: 34px;
+      display: inline-block;
+      padding: 6px;
+      text-align: center;
+      font-size: 16px; }
+      body .footer a[class^='icon']:hover {
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

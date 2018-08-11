@@ -1,0 +1,112 @@
+@import "bootstrap.min.css";
+@import "fonts";
+@import "icomoon.css";
+
+$dark-gray: #37414e;
+$middle-gray: #4b596c;
+$red: #be393b;
+$error-bg: #2f3136;
+$green: #58ad52;
+$light-green: #deebde;
+$light-gray: #e9eef3;
+$white: #fff;
+$bg-color: #f6f6f7;
+$input-bg: #34383c;
+$footer_bg: #2a2d33;
+$icon-bg: #2f3338;
+$icon-text: #656566;
+$icon-border: #454648;
+body{
+  font-family: Roboto;
+  font-size: 22px;
+  background-color: $bg-color;
+  .text-dark-gray{
+    color: $dark-gray;
+  }
+  .btn-red{
+    background-color: $red;
+    color: $white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 60px;
+  }
+  .form-group{
+    input, textarea{
+      background-color: rgba($input-bg, 0.28);
+      border-color: rgba($white, 0.28);
+      font-size: 22px;
+      color: $white;
+      margin-bottom: 60px;
+      &:focus{
+        background-color: rgba($input-bg, 0.38);
+        border-color: rgba($white, 0.38);
+        box-shadow: 0 0 0 0.1rem rgba($white,.25);
+        color: $white;
+      }
+      &.error{
+        border-color: rgba($red,.49);
+        background-color: $error-bg;
+      }
+    }
+    textarea{
+      resize: none;
+    }
+    input{
+      height: 56px;
+    }
+  }
+  .comments{
+    .card-message{
+      text-align: center;
+      margin: 20px 20px;
+      background-color: $light-green;
+      padding-bottom: 30px;
+      border: none;
+      .card-title{
+        font-weight: 500;
+        color: $green;
+        padding: 10px 5px;
+      }
+      .card-header{
+        color: $white;
+        background-color: $green;
+        border: none;
+      }
+      .card-body{
+        border: none;
+      }
+    }
+    div[class^='col']:nth-child(2n){
+      .card-message{
+        background-color: $light-gray;
+        color: $dark-gray;
+        .card-header{
+          background-color: $middle-gray;
+        }
+        .card-title{
+          color: $dark-gray;
+        }
+      }
+    }
+  }
+  .footer{
+    background-color: $footer_bg;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    a[class^='icon']{
+      background-color: $icon-bg;
+      color: $icon-text;
+      border-radius: 100%;
+      border: $icon-border 2px solid;
+      width: 34px;
+      height: 34px;
+      display: inline-block;
+      padding: 6px;
+      text-align: center;
+      font-size: 16px;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
