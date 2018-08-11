@@ -12,7 +12,7 @@ $messages = Message::all($db);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="/css/style.css" >
 
     <title>Test</title>
 </head>
@@ -21,7 +21,7 @@ $messages = Message::all($db);
     <div class="container">
         <nav class="navbar">
             <a class="navbar-brand" href="#">
-                <img src="img/logo.png" height="40">
+                <img src="/img/logo.png" height="40">
             </a>
         </nav>
         <div class="row">
@@ -66,7 +66,7 @@ $messages = Message::all($db);
         <div class="row">
             <div class="col">
                 <a href="#">
-                    <img src="img/logo.png" height="35">
+                    <img src="/img/logo.png" height="35">
                 </a>
             </div>
             <div class="col-1 text-center">
@@ -81,9 +81,9 @@ $messages = Message::all($db);
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.3.1.min.js" ></script>
-<script src="js/bootstrap.min.js" ></script>
-<script src="js/jquery.validate.min.js" ></script>
-<script src="js/script.js"></script>
+<script src="/js/jquery-3.3.1.min.js" ></script>
+<script src="/js/bootstrap.min.js" ></script>
+<script src="/js/jquery.validate.min.js" ></script>
+<script src="/js/script.js"></script>
 </body>
 </html>
